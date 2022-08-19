@@ -9,6 +9,8 @@ Uploads Mychron csv data to Mongodb for further analytics.
 
 Export your data from Race Studio in Aim Csv Format.
 
+If you want to do a dry run, in your `.env` set `LOAD_SESSION=false` (or anything except `true`).
+
 Run the uploader with a list of the file paths for the csvs you want to upload.
 
 `./uploader myFile.csv myFile2.csv`
