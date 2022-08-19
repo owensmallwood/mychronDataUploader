@@ -12,3 +12,7 @@ Export your data from Race Studio in Aim Csv Format.
 Run the uploader with a list of the file paths for the csvs you want to upload.
 
 `./uploader myFile.csv myFile2.csv`
+
+### Optional - Visualize Data
+
+I used Grafana with the MongoDB plugin to create a [public dashboard](https://owensmallwood2.grafana.net/public-dashboards/2cf5c574169049b29bcf659992ba7ce9) with some of the lap data.
